@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h2>📝 To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Type your task using the keyboard" readonly />
+        <button id="addTask">Add Task</button>
+        <button id="clearAllBtn">Clear All</button>
+
+        <ul id="todoList"></ul>
+      </div>
+
+    <div class="container"> 
+        <div class="alphabet-key-container">
+            <div class="function-keys">
+                <button class="key"><span>Esc</span></button>
+                <button class="key"><span>F1</span></button>
+                <button class="key"><span>F2</span></button>
+                <button class="key"><span>F3</span></button>
+                <button class="key"><span>F4</span></button>
+                <button class="key"><span>F5</span></button>
+                <button class="key"><span>F6</span></button>
+                <button class="key"><span>F7</span></button>
+                <button class="key"><span>F8</span></button>
+                <button class="key"><span>F9</span></button>
+                <button class="key"><span>F10</span></button>
+                <button class="key"><span>F11</span></button>
+                <button class="key"><span>F12</span></button>
+                <button class="key"><span>Insert</span></button>
+                <button class="key"><span>PrtSc</span></button>
+                <button class="key"><span>Delete</span></button>
+            </div>
+            <div class="num-under-function-keys">
+                <button class="key"><span>~<br>`</span></button>
+                <button class="key"><span>!<br>1</span></button>
+                <button class="key"><span>@<br>2</span></button>
+                <button class="key"><span>#<br>3</span></button>
+                <button class="key"><span>$<br>4</span></button>
+                <button class="key"><span>%<br>5</span></button>
+                <button class="key"><span>^<br>6</span></button>
+                <button class="key"><span>&<br>7</span></button>
+                <button class="key"><span>*<br>8</span></button>
+                <button class="key"><span>(<br>9</span></button>
+                <button class="key"><span>)<br>0</span></button>
+                <button class="key"><span>_<br>-</span></button>
+                <button class="key"><span>+<br>=</span></button>
+                <button class="key backspace" ><span>Backspace</span></button>
+            </div>
+            <div class="qwerty">
+                <button class="key tab"><span>Tab</span></button>
+                <button class="key"><span>Q</span></button>
+                <button class="key"><span>W</span></button>
+                <button class="key"><span>E</span></button>
+                <button class="key"><span>R</span></button>
+                <button class="key"><span>T</span></button>
+                <button class="key"><span>Y</span></button>
+                <button class="key"><span>U</span></button>
+                <button class="key"><span>I</span></button>
+                <button class="key"><span>O</span></button>
+                <button class="key"><span>P</span></button>
+                <button class="key"><span>{<br>[</span></button>
+                <button class="key"><span>}<br>]</span></button>
+                <button class="key line"><span>|<br>\</span></button>
+            </div>
+            <div class="asdf">
+                <button class="key capsLk"><span>CapsLk</span></button>
+                <button class="key"><span>A</span></button>
+                <button class="key"><span>S</span></button>
+                <button class="key"><span>D</span></button>
+                <button class="key"><span>F</span></button>
+                <button class="key"><span>G</span></button>
+                <button class="key"><span>H</span></button>
+                <button class="key"><span>J</span></button>
+                <button class="key"><span>K</span></button>
+                <button class="key"><span>L</span></button>
+                <button class="key"><span>:<br>;</span></button>
+                <button class="key"><span>"<br>'</span></button>
+                <button class="key enter"><span>Enter</span></button>
+            </div>
+            <div class="zxcv">
+                <button class="key shift"><span>Shift</span></button>
+                <button class="key"><span>Z</span></button>
+                <button class="key"><span>X</span></button>
+                <button class="key"><span>C</span></button>
+                <button class="key"><span>V</span></button>
+                <button class="key"><span>B</span></button>
+                <button class="key"><span>N</span></button>
+                <button class="key"><span>M</span></button>
+                <button class="key"><span><<br>,</span></button>
+                <button class="key"><span>><br>.</span></button>
+                <button class="key"><span>?<br>/</span></button>
+                <button class="key shift"><span>Shift</span></button>
+            </div>
+            <div class="ctrl">
+                <button class="key ctrl"><span>Ctrl</span></button>
+                <button class="key"><span>Fn</span></button>
+                <button class="key"><span>Win</span></button>
+                <button class="key"><span>Alt</span></button>
+                <button class="key space"><span>Space</span></button>
+                <button class="key"><span>Alt</span></button>
+                <button class="key"><span>Ctrl</span></button>
+                <button class="key"><span>Home</span></button>
+                <div class="up-down-keys">
+                    <button class="key"><span>PgUp</span></button>
+                    <button class="key"><span>PgDn</span></button>
+                </div>
+                <button class="key"><span>End</span></button>
+            </div>
+        </div>
+        <div class="num-key-container">
+            <div class="num-key-content">
+                <!-- <div class="row-1">
+                    <button class="key"><span>pse</span></button>
+                    <button class="key"><span>sq</span></button>
+                    <button class="key"><span>rev</span></button>
+                    <button class="key"><span>for</span></button>
+                </div>
+                <div class="row-2">
+                    <button class="key"><span>pse</span></button>
+                    <button class="key"><span>sq</span></button>
+                    <button class="key"><span>rev</span></button>
+                    <button class="key"><span>for</span></button>
+                </div> -->
+                <button class="key"><span>res</span></button>
+                <button class="key"><span>pau</span></button>
+                <button class="key"><span>rev</span></button>
+                <button class="key"><span>for</span></button>
+                <button class="key"><span>Num<br>Lock</span></button>
+                <button class="key"><span>/</span></button>
+                <button class="key"><span>*</span></button>
+                <button class="key"><span>-</span></button>
+                <div class="colspan-plus">
+                    <div class="cont-7-8-9">
+                        <button class="key"><span>7</span></button>
+                        <button class="key"><span>8</span></button>
+                        <button class="key"><span>9</span></button>
+                        <button class="key"><span>4</span></button>
+                        <button class="key"><span>5</span></button>
+                        <button class="key"><span>6</span></button>
+                    </div>
+                    <div class="plus-div">
+                        <button class="key plus"><span>+</span></button>
+                    </div>
+                </div>
+                <div class="colspan-enter">
+                    <div class="cont-1-2-3">
+                        <button class="key"><span>1</span></button>
+                        <button class="key"><span>2</span></button>
+                        <button class="key"><span>3</span></button>
+                        <button class="key zero"><span>0</span></button>
+                        <button class="key"><span>.</span></button>
+                    </div>
+                    <div class="enter-div">
+                        <button class="key enter-span"><span>Enter</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script> 
+</body>
+</html>
